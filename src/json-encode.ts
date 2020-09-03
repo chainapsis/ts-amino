@@ -118,7 +118,7 @@ function encodeReflectJSONList(
   fopts: FieldOptions
 ): string {
   // if null
-  if (!value || value.length === 0) {
+  if (!value) {
     return "null";
   }
 
