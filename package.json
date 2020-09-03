@@ -1,5 +1,5 @@
 {
-  "name": "@node-a-team/ts-amino",
+  "name": "@chainapsis/ts-amino",
   "version": "v0.0.1-alpha.2",
   "description": "javascript/typescript version amino",
   "main": "dist/index.js",
