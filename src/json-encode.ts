@@ -185,7 +185,9 @@ function encodeReflectJSONStruct(
       }
     }
 
-    // TODO: handling omit empty https://github.com/tendermint/go-amino/blob/master/json-encode.go#L301
+    if (fopts.jsonOmitEmpty && !value) {
+      continue;
+    }
 
     if (writeComma) {
       result += ",";
